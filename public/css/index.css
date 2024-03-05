@@ -1,0 +1,30 @@
+
+.logo-card-container{
+    height: calc(80vh - 3rem);
+}
+@media screen and (max-width: 1024px){
+    .logo-card-container{
+        height: calc(80vh - 3rem);
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .logo-card-container{
+        height: calc(30vh - 3rem);
+    }   
+}
+@media screen and (max-width: 480px){
+
+    .logo-card-container{
+        height: calc(30vh - 3rem);
+    }
+}
+#custom-content{
+    backdrop-filter: blur(10px);
+}
+#nosotros-section div div p{
+    text-align: justify;
+}
+body{
+    margin: 3rem auto 0;
+}
