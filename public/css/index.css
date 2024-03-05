@@ -39,6 +39,9 @@ h6 {
 #custom-content {
     backdrop-filter: blur(10px);
 }
+.blurred {
+    backdrop-filter: blur(10px);
+}
 
 #nosotros-section div div p {
     text-align: justify;
@@ -49,7 +52,7 @@ h6 {
 }
 
 body {
-    margin: 3rem auto 0;
+    padding: 10rem auto 0;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
